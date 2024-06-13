@@ -1,0 +1,50 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.c-pointer:hover {
+  cursor: pointer;
+}
+
+.logo-div {
+  border-bottom: 1px dashed rgb(0, 0, 0);
+}
+
+.sidenav {
+  width: 200px;
+  height: calc(100vh - 3rem);
+  overflow-y: auto;
+  border-right: 2px solid #5B6074;
+}
+
+.sidenav a {
+  color: white;
+}
+
+.collapsed-icon {
+  transform: scale(1.3);
+  transition: all 0.2s;
+}
+
+@media screen and (max-width: 786px) {
+  .sidenav {
+    width: 60px;
+  }
+  
+  .sidenav-icon {
+    transform: scale(1.3);
+    transition: all 0.2s;
+  }
+}
